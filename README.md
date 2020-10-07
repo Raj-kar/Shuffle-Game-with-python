@@ -7,9 +7,38 @@ Two-player game. Each time a player enters a word and the game shows the word in
       - [pyfiglet module](https://pypi.org/project/pyfiglet/0.7/)
       - [termcolor module](https://pypi.org/project/termcolor/)
       - [synonym module](https://pypi.org/project/PyDictionary/)
-    - Internal module [already added ]
-      - [random, getpass, itertools, threading, time, sys]
+    - Internal module { already added }
+      - random, getpass, itertools, threading, time, sys
   
 # Download complete ? 📁
-    
+  - Download/ Clone repository in your system.
+  - Run [main.py](https://github.com/Raj-kar/Shuffle-Game-with-python/blob/main/main.py) for start the game.
+  - Read the instrutions and play ! ❤️‍🔥
+
+# Don't know how to install python or external modules ? 😟
+  - Don't worry. Follow here. 🤩
+    - [Install on Windows](https://www.activestate.com/resources/quick-reads/python-package-installation-on-windows/)
+    - [Install on Linux](https://www.tecmint.com/install-pip-in-linux/)
+    - [Install on Mac](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/)
+    - [Install on Android](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) 
+      - you have to buy premium version of python3, for install external modules !
+
+# Want some modification/ or contribute ? 🤗
+  - Just [Create a pull request](https://github.com/Raj-kar/Shuffle-Game-with-python) and show your cretivity !
+  
+  
+# What's going on behind the scene ? ⚙️
+  - Just added some OP external modules, that's do all the heavylifting at the backend .
+    - Just for designing, random color genarate, ascii text and find word synonyms
+  - I already added Step by step comment and guide for your better understanding. Read those comments !
+  
+  - [main.py](https://github.com/Raj-kar/Shuffle-Game-with-python/blob/main/main.py) has the main game logic and functions !
+  - [design.py](https://github.com/Raj-kar/Shuffle-Game-with-python/blob/main/design.py) has all the basic design of the game.
+  - [functions.py](https://github.com/Raj-kar/Shuffle-Game-with-python/blob/main/functions.py) contains all the necessary function that we need for make the program more user friendly.
+  - [synonym.py](https://github.com/Raj-kar/Shuffle-Game-with-python/blob/main/synonym.py) return last hint (a synonym) and display a loading animation !
+
+# What's Missing ? 💢 
+  - Input validation for the User !
+  - Fast api for fetch synonyms quickly !
+  - add here, what you think is missing ? 
     
